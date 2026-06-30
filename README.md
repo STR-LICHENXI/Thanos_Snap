@@ -18,12 +18,13 @@ In next stage, if the distance suddenly increased too much(more than a pre-adjus
 The deleting process uses pyautoGUI to execute Alt+Tab on your keyboard , this is to switch from the code editor to browser behind it . 
 Then followed by Ctrl+1 to jump to the first tab, decide ramdomly whether to close it using Ctrl+w or jump to the next tab using Ctrl+Tab . This process repeats for the number of times you entered previously. ( because it's hard for program to tell whether a complete round of tabs is done or not as they can't see the screen )
 
-### Installation
-0: download everything 
-1: copy code to whatever IDE you have, enter the following to your terminal 
-pip install opencv-python mediapipe pyautogui
-2: make sure 'hand_landmarker.task' file is in the same directory as the script.
-3: run (make sure your browser is right behind your code editor so Alt+tab switches to it)
+## Installation
+
+**0:** Download everything.
+**1:** Copy code to whatever IDE you have, enter the following to your terminal:
+`pip install opencv-python mediapipe pyautogui`
+**2:** Make sure the `hand_landmarker.task` file is in the same directory as the script.
+**3:** Run (make sure your browser is right behind your code editor so `Alt+Tab` switches to it).
 
 
 Beware this program actually closes your tabs 
