@@ -3,12 +3,12 @@ A program that allow AI model to detect your finger snap and hence randomly dele
 
 Perfectly balanced , as all things should be .
 
-## OVERVIEW & FEATURES
+### OVERVIEW & FEATURES
 
 It is a program using real-time AI posture monitoring system built using python , opencv , mediapipe from google, PyAutoGUI , Tkinter
 It can detects your finger gesture&snap and hence start randomly deleting half of your tabs .
 
-## How It Works ?
+### How It Works ?
 So when you click start , a window will pop up to ask you to input the exact number of tabs you have. 
 (yes you have to key in the number , as the developer is too noob/lazy to develope a method of finding the number of tabs using the limited tools he have)
 Then program activates the webcam and uses google's mediapipe to track the corrdinate of your fingers . 
@@ -18,7 +18,7 @@ In next stage, if the distance suddenly increased too much(more than a pre-adjus
 The deleting process uses pyautoGUI to execute Alt+Tab on your keyboard , this is to switch from the code editor to browser behind it . 
 Then followed by Ctrl+1 to jump to the first tab, decide ramdomly whether to close it using Ctrl+w or jump to the next tab using Ctrl+Tab . This process repeats for the number of times you entered previously. ( because it's hard for program to tell whether a complete round of tabs is done or not as they can't see the screen )
 
-## Installation
+### Installation
 0: download everything 
 1: copy code to whatever IDE you have, enter the following to your terminal 
 pip install opencv-python mediapipe pyautogui
